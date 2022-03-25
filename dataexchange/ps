@@ -1,0 +1,13 @@
+CONTAINER ID        IMAGE               COMMAND                CREATED             STATUS              PORTS                    NAMES
+eec1346f8ed0        dlink/dladmin       "/tini -- docker-ent   2 hours ago         Up 2 hours          0.0.0.0:8080->8080/tcp   PD920_DLADMIN
+f202c934a014        jdehandlerpy        "/bin/bash -c 'node    9 hours ago         Up 9 hours                                   PY920_MAIL
+f35b789e4646        dlink/jdehandler    "/bin/bash -c 'node    9 hours ago         Up 9 hours                                   PY920_LOGO
+f42b920a3ebf        dlink/jdemonitor    "/bin/bash -c 'node    9 hours ago         Up 9 hours                                   PY920_MONITOR
+548726f87c91        jdehandlerpy        "/bin/bash -c 'node    9 hours ago         Up 9 hours                                   PD920_MAIL
+0bfb879d0629        dlink/jdehandler    "/bin/bash -c 'node    9 hours ago         Up 9 hours                                   PD920_LOGO
+3094f81186fe        dlink/jdemonitor    "/bin/bash -c 'node    9 hours ago         Up 9 hours                                   PD920_MONITOR
+0a4e3f0d8f42        jdeemailerpy        "pm2-runtime index.j   10 hours ago        Up 10 hours                                  PY920_EMAILER
+06ce48b8838b        jdeemailerpd        "pm2-runtime index.j   10 hours ago        Up 10 hours                                  PD920_EMAILER
+
+
+
